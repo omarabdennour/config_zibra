@@ -32,8 +32,3 @@ spring:
                locator:
                   enabled: true
                   lower-case-service-id: true
-            routes:
-            - id: cycle-service-route
-              uri: lb://cycle-service
-              predicates:
-              - Path=/api/cycles 
