@@ -11,7 +11,7 @@ management:
    health:
       circuitbreakers:
          enabled: true
-                 
+         
 eureka:
    client:
       service-url:
@@ -19,6 +19,8 @@ eureka:
    instance:
       instance-id: ${spring.application.name}:${random.uuid}
 spring:
+  hateoas:
+    use-hal-as-default-json-media-type: false
   zipkin:
     base-url:  http://127.0.0.2:9411
   datasource:
