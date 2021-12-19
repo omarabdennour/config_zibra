@@ -11,8 +11,7 @@ management:
    health:
       circuitbreakers:
          enabled: true
-         
-         
+                 
 eureka:
    client:
       service-url:
