@@ -20,7 +20,8 @@ eureka:
       instance-id: ${spring.application.name}:${random.uuid}
 spring:
   data:
-    rest.defaultMediaType: application/json
+    rest:
+      defaultMediaType: application/json
   zipkin:
     base-url:  http://127.0.0.2:9411
   datasource:
