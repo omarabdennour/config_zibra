@@ -1,0 +1,60 @@
+server:
+  port: 0
+  
+management:
+   endpoints:
+      web:
+         exposure:
+            include: refresh
+      health:
+         show-details: always
+   health:
+      circuitbreakers:
+         enabled: true
+               
+eureka:
+   client:
+      service-url:
+         defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
+   instance:
+      instance-id: ${spring.application.name}:${random.uuid}
+spring:
+  data:
+    rest:
+      defaultMediaType: application/json
+  zipkin:
+    base-url:  http://127.0.0.2:9411
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    platform: mariadb
+    url: jdbc:mariadb://127.0.0.2:3306/db
+    username: root
+    password: 123456
+#  h2:
+#    console:
+#      enabled: true
+#      path: /h2-console
+#      settings:
+#        trace: false
+#        web-allow-others: false
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 20MB
+      max-request-size: 2M
+      
+      
+      
+      
+file:
+  upload-dir: ${file.upload-dir:/home/omar/Documents/zibra-upload}
+
+      
