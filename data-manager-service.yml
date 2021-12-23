@@ -55,6 +55,5 @@ spring:
       
       
 file:
-  upload-dir: ${file.upload-dir:/home/omar/Documents/zibra-upload}
-
+  upload-dir: ${file.upload-dir}:${/home/omar/Documents/zibra-upload}
       
