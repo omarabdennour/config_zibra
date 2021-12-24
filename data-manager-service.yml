@@ -19,6 +19,12 @@ eureka:
    instance:
       instance-id: ${spring.application.name}:${random.uuid}
 spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB
   data:
     rest:
       defaultMediaType: application/json
@@ -44,8 +50,7 @@ spring:
     show-sql: false
   profiles:
     active: dev
-      
-      
+    
 file:
   upload-dir: ${upload-dir:/home/omar/Documents/zibra-upload}
       
