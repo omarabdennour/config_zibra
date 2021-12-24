@@ -52,5 +52,5 @@ spring:
     active: dev
     
 file:
-  upload-dir: ${upload-dir:/home/omar/Documents/zibra-upload}
+  upload_dir: ${upload-dir:/home/omar/Documents/zibra-upload}
       
