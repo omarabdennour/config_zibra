@@ -10,7 +10,7 @@ management:
          show-details: always
    health:
       circuitbreakers:
-         enabled: true
+         enabled: false
                
 eureka:
    client:
