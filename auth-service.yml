@@ -47,4 +47,6 @@ spring:
     
 file:
   upload_dir: ${upload-dir:/home/omar/Documents/zibra-upload}
+jwt:
+  secretKey : mysecret
       
