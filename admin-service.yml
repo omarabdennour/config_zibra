@@ -55,4 +55,13 @@ spring:
     
 file:
   upload_dir: ${upload-dir:/home/omar/Documents/zibra-upload}
+  
+admin:
+  username: superadmin
+  fullName: superadmin
+  password: superadmin
+  status: Y
+  emailAddress: superadmin@f1soft.com
+  loginAttempt: 0
+  profileId : 1
       
