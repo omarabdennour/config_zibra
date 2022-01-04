@@ -66,5 +66,6 @@ admin:
   profileId : 1
   
 jwt:
+  secretKey: mysecret
   validityInMilliseconds: 3600000
       
