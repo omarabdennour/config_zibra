@@ -18,7 +18,23 @@ eureka:
          defaultZone: ${EUREKA_SERVER:http://localhost:8761/eureka}
    instance:
       instance-id: ${spring.application.name}:${random.uuid}
+      
 spring:
+  mail:
+      host: smtp.gmail.com
+      port: 465
+      protocol: smtps
+      username: oabdennour@gmail.com
+      password: XWF11RGDF17X32OMAR
+      properties:
+        mail:
+          transport:
+            protocol: smtps
+          smtps:
+            auth: true
+            starttls:
+              enable: true
+              timeout: 8000
   data:
     rest:
       defaultMediaType: application/json
@@ -50,4 +66,9 @@ file:
 
 jwt:
   secretKey : mysecret
+################### JavaMail Configuration ##########################
+support:
+  email: USERNAME@gmail.com
+
+  
       
