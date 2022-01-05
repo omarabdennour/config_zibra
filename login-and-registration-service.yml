@@ -25,7 +25,7 @@ spring:
       port: 465
       protocol: smtps
       username: oabdennour@gmail.com
-      password: XWF11RGDF17X32OMAR
+      password: xxxxxxxxxxxxxxxxxxxx
       properties:
         mail:
           transport:
