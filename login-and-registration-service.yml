@@ -66,6 +66,10 @@ file:
 
 jwt:
   secretKey : mysecret
+bezkoder:
+  app:
+    jwtSecret: bezKoderSecretKey
+    jwtExpirationMs: 86400000
 ################### JavaMail Configuration ##########################
 support:
   email: USERNAME@gmail.com
