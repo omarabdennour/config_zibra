@@ -68,10 +68,10 @@ file:
 
 jwt:
   secretKey : mysecret
-bezkoder:
-  app:
-    jwtSecret: bezKoderSecretKey
-    jwtExpirationMs: 86400000
+
+app:
+  jwtSecret: bezKoderSecretKey
+  jwtExpirationMs: 86400000
     
 ################### geoip2 Configuration ##########################   
 geo:
