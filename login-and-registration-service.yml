@@ -76,6 +76,10 @@ geo:
   ip:
     lib:
       enabled: false
+################### cron Configuration ########################## 
+purge:
+  cron:
+    expression: 0 0 5 * * ?
 ################### JavaMail Configuration ##########################
 support:
   email: USERNAME@gmail.com
