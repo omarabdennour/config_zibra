@@ -20,6 +20,8 @@ eureka:
       instance-id: ${spring.application.name}:${random.uuid}
       
 spring:
+  main:
+    allow-bean-definition-overriding: true
   mail:
       host: smtp.gmail.com
       port: 465
