@@ -21,7 +21,7 @@ eureka:
       
 spring:
   main:
-    allow-bean-definition-overriding: false
+    allow-bean-definition-overriding: true
   mail:
       host: smtp.gmail.com
       port: 465
