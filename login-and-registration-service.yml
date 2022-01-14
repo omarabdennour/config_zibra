@@ -70,6 +70,12 @@ bezkoder:
   app:
     jwtSecret: bezKoderSecretKey
     jwtExpirationMs: 86400000
+    
+################### geoip2 Configuration ##########################   
+geo:
+  ip:
+    lib:
+      enabled: false
 ################### JavaMail Configuration ##########################
 support:
   email: USERNAME@gmail.com
