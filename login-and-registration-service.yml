@@ -67,8 +67,14 @@ file:
   upload_dir: ${upload-dir:/home/omar/Documents/zibra-upload}
 
 jwt:
+  token:
+    expiration:
+      in:
+        seconds: 86400000
   secretKey : mysecret
-
+  signing:
+    key:
+      secret: 15656fae13awAWEe5ewaf
 app:
   jwtSecret: bezKoderSecretKey
   jwtExpirationMs: 86400000
