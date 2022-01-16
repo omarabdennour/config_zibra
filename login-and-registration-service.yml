@@ -46,7 +46,7 @@ spring:
     initialization-mode: always
     driverClassName: org.mariadb.jdbc.Driver
     platform: mariadb
-    url: jdbc:mariadb://localhost:3306/login_registration_db
+    url: jdbc:mariadb://localhost:3306/login_registration_db?createDatabaseIfNotExist=true
     username: root
     password: 123456
 #  h2:
