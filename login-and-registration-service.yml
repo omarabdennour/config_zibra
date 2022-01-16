@@ -42,6 +42,8 @@ spring:
       defaultMediaType: application/json
   zipkin:
     base-url:  http://localhost:9411
+  jpa:
+    defer-datasource-initialization: true
   datasource:
     initialization-mode: always
     driverClassName: org.mariadb.jdbc.Driver
