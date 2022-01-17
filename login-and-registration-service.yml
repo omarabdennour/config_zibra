@@ -26,8 +26,8 @@ spring:
       host: smtp.gmail.com
       port: 465
       protocol: smtps
-      username: oabdennour@gmail.com
-      password: xxxxxxxxxxxxxxxxxxxx
+      username: zibra.service@gmail.com
+      password: a1234@cFG
       properties:
         mail:
           transport:
