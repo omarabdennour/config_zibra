@@ -28,7 +28,7 @@ spring:
     driverClassName: org.mariadb.jdbc.Driver
     platform: mariadb
     url: jdbc:mariadb://localhost:3306/zibra_marketing_db?createDatabaseIfNotExist=true
-    username: zibra
+    username: root
     password: 123456
 #  h2:
 #    console:
