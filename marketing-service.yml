@@ -22,6 +22,7 @@ spring:
   data:
     rest:
       defaultMediaType: application/json
+      base-path: /api
   zipkin:
     base-url:  http://localhost:9411
   datasource:
