@@ -30,7 +30,7 @@ spring:
     platform: mariadb
     url: jdbc:mariadb://localhost:3306/zibra_marketing_db?createDatabaseIfNotExist=true
     username: root
-    password: 123456
+    password: password
 #  h2:
 #    console:
 #      enabled: true
