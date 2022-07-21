@@ -23,14 +23,14 @@ spring:
     rest:
       defaultMediaType: application/json
       #base-path: /api
-  zipkin:
-    base-url:  http://localhost:9411
+  #zipkin:
+    #base-url:  http://localhost:9411
   datasource:
     driverClassName: org.mariadb.jdbc.Driver
     platform: mariadb
     url: jdbc:mariadb://localhost:3306/zibra_marketing_db?createDatabaseIfNotExist=true
     username: root
-    password: password
+    password: 123456
 #  h2:
 #    console:
 #      enabled: true
