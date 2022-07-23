@@ -41,7 +41,7 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: update  #none #drop #create #create-only #create-drop #update #validate
     show-sql: false
   profiles:
     active: dev
